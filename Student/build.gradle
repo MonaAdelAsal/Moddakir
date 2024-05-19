@@ -25,108 +25,12 @@ android {
         versionCode 120
         versionName "2.0.68"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables.useSupportLibrary = true
-        multiDexEnabled true
-    }
-    packagingOptions {
-        exclude 'AndroidManifest.xml' //This fixes a bug in FAN 5.0.1
-        exclude("META-INF/lifecycle-livedata-ktx_release.kotlin_module")
-        exclude("META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version")
-        exclude("META-INF/androidx.vectordrawable_vectordrawable.version")
-        exclude("META-INF/androidx.loader_loader.version")
-        exclude("META-INF/androidx.lifecycle_lifecycle-livedata.version")
-        exclude("kotlin/annotation/annotation.kotlin_builtins")
-        exclude("META-INF/androidx.lifecycle_lifecycle-runtime.version")
-        exclude("META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version")
-        exclude("META-INF/androidx.transition_transition.version")
-        exclude("kotlin/internal/internal.kotlin_builtins")
-        exclude("transport-runtime.properties")
-        exclude("play-services-safetynet.properties")
-        exclude("META-INF/androidx.navigation_navigation-fragment.version")
-        exclude("META-INF/androidx.work_work-runtime.version")
-        exclude("META-INF/androidx.appcompat_appcompat.version")
-        exclude("META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version")
-        exclude("META-INF/localization_release.kotlin_module")
-        exclude("META-INF/androidx.lifecycle_lifecycle-service.version")
-        exclude("META-INF/androidx.print_print.version")
-
-        exclude("kotlin/reflect/reflect.kotlin_builtins")
-        exclude("okhttp3/internal/publicsuffix/NOTICE")
-        exclude("firebase-components.properties")
-        exclude("firebase-datatransport.properties")
-
-    }
-
-    signingConfigs {
-        config {
-            keyAlias 'moddakir'
-            keyPassword 'arabdt123'
-            storeFile file('D:\\androidApps\\modakkir_android\\moddakir.jks')
-
-            storePassword 'arabdt123'
-        }
     }
 
     buildTypes {
         release {
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField "String", BASE_URL, "\"https://" + URLAPi + "/" + VersionPro + "/api/\""
-            buildConfigField "String", SOCKET_URL, "\"https://" + SOCKETURL + "\""
-            if (getGradle().getStartParameter().getTaskRequests().toString().toLowerCase().contains("google")) {
-
-                lintOptions {
-                    disable 'MissingTranslation'
-                    checkReleaseBuilds false
-                    abortOnError false
-                    splits.abi.enable = false
-                    splits.density.enable = false
-                    aaptOptions.cruncherEnabled = false
-                    ext.alwaysUpdateBuildId = false
-                    firebaseCrashlytics {
-                        // If you don't need crash reporting for your debug build,
-                        // you can speed up your build by disabling mapping file uploading.
-                        mappingFileUploadEnabled false
-                    }
-                }}
-
-            signingConfig signingConfigs.config
-
             minifyEnabled false
-            shrinkResources false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
-
-
-        }
-        debug {
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-//          buildConfigField "String", BASE_URL, "\"https://" + URLAPi + "/" + VersionPro + "/api/\""
-            //buildConfigField "String", SOCKET_URL, "\"https://" + SOCKETURL + "\""
-            // buildConfigField "String", SOCKET_URL,"\"https://ws-dev-agora.moddakir.com"+"\""//dev
-            // buildConfigField "String", BASE_URL,"\"https://api-dev-agora.moddakir.com/v2/api/\""//dev
-            buildConfigField "String", SOCKET_URL,"\"https://"+EnvDEV+SOCKETURL+"\""//dev
-            buildConfigField "String", BASE_URL,"\"https://api-dev.moddakir.com/v2/api/\""//dev
-            if (getGradle().getStartParameter().getTaskRequests().toString().toLowerCase().contains("google")) {
-
-                splits.abi.enable = false
-                splits.density.enable = false
-                aaptOptions.cruncherEnabled = false
-                ext.alwaysUpdateBuildId = false
-//            firebaseCrashlytics {
-//                // If you don't need crash reporting for your debug build,
-//                // you can speed up your build by disabling mapping file uploading.
-//                mappingFileUploadEnabled false
-//            }
-            }
-            signingConfig signingConfigs.config
-            minifyEnabled false
-            shrinkResources false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
-        }
-        innerTest {
-            //...
-            matchingFallbacks = ['debug', 'release']
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     lintOptions {
@@ -137,38 +41,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
-    /* kotlinOptions {
-         jvmTarget = "1.8"
-     }*/
-    bundle {
-        language {
-            // Specifies that the app bundle should not support
-            // configuration APKs for language resources. These
-            // resources are instead packaged with each base and
-            // dynamic feature APK.
-            enableSplit = false
-        }
-    }
+
     configurations.all {
         resolutionStrategy {
             exclude group: "org.jetbrains.kotlinx", module: "kotlinx-coroutines-debug"
         }
     }
 
-    productFlavors {
-        google {
-
-        }
-
-        huawei {
-
-        }
-
-
-    }
-    buildFeatures {
-        viewBinding true
-    }
 }
 
 dependencies {
