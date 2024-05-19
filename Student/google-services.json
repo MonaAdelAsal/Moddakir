@@ -1,0 +1,575 @@
+{
+  "project_info": {
+    "project_number": "973281079104",
+    "firebase_url": "https://sinsh-6ec37.firebaseio.com",
+    "project_id": "sinsh-6ec37",
+    "storage_bucket": "sinsh-6ec37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:b1c676403f6d220bee94a5",
+        "android_client_info": {
+          "package_name": "com.arabdt.common"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-66i0dmpdlmp65p62ufjmk0r54r53p65i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arabdt.common",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        },
+        {
+          "client_id": "973281079104-u48kqv9fh9g7hddbnufvfqvh3qqtv6bb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arabdt.common",
+            "certificate_hash": "8d7ba87b0bb41e63812d7a548675338d226e8969"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:66d51651324b0b0dee94a5",
+        "android_client_info": {
+          "package_name": "com.arabdt.moddakir.student"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-e7osggnkv3q68qoi5henerdd8250017d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arabdt.moddakir.student",
+            "certificate_hash": "8d7ba87b0bb41e63812d7a548675338d226e8969"
+          }
+        },
+        {
+          "client_id": "973281079104-suijbsrbkb1u5ts16re09nocn0ff7hh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arabdt.moddakir.student",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:eac8e1ca95138d4dee94a5",
+        "android_client_info": {
+          "package_name": "com.arabdt.moddakir.teacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-lhjfcj5dsns5v39a00updrdb134mcuqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arabdt.moddakir.teacher",
+            "certificate_hash": "8d7ba87b0bb41e63812d7a548675338d226e8969"
+          }
+        },
+        {
+          "client_id": "973281079104-p89l1qcpaj4b22e9efdbvjaiim46ce6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arabdt.moddakir.teacher",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:7c8837345e1057d8ee94a5",
+        "android_client_info": {
+          "package_name": "com.moddakir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-3mordejtjis7nvvjul6hhuvtl7tu621b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir",
+            "certificate_hash": "8d7ba87b0bb41e63812d7a548675338d226e8969"
+          }
+        },
+        {
+          "client_id": "973281079104-ipq667tehdhmjvqr7jbv996f982o9to6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:8eb6a8cfb68e415aee94a5",
+        "android_client_info": {
+          "package_name": "com.moddakir.alzkeralhakeem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:41deda978829dec2ee94a5",
+        "android_client_info": {
+          "package_name": "com.moddakir.common"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-jcmtvit31c2e4n3j4kvek2ue511bl5fe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.common",
+            "certificate_hash": "8d7ba87b0bb41e63812d7a548675338d226e8969"
+          }
+        },
+        {
+          "client_id": "973281079104-p5p4s9vfei9kl51nhl0jivcj0fqun3ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.common",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:8021f6355a0a377fee94a5",
+        "android_client_info": {
+          "package_name": "com.moddakir.maqratk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-bk21779jfdrmj5bd5d3s59shr2o70lke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.maqratk",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:6a7a7156d7addd6bee94a5",
+        "android_client_info": {
+          "package_name": "com.moddakir.moddakir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-2h0ism9m69ct4bbe67oqadp4genkpeaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.moddakir",
+            "certificate_hash": "54d8bf4f56f6beab5c7ce6174d2c229319e5b027"
+          }
+        },
+        {
+          "client_id": "973281079104-5co4lamc9tpnemgcu2vc53bm17i0f6v0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.moddakir",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        },
+        {
+          "relation": ["delegate_permission/common.handle_all_urls"],
+          "target": {
+            "namespace": "android_app",
+            "package_name": "com.moddakir.moddakir",
+            "sha256_cert_fingerprints":
+            ["10:55:04:5A:75:B7:DE:5A:9E:B6:75:31:09:13:21:95:F0:D3:49:C6:99:D3:55:A8:48:64:34:9D:1B:CA:D5:E5"]
+          }
+        },
+        {
+          "client_id": "973281079104-emcks5screeaev98k0up3fdva4ltq6d8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.moddakir",
+            "certificate_hash": "8d7ba87b0bb41e63812d7a548675338d226e8969"
+          }
+        },
+        {
+          "client_id": "973281079104-mas72c2gcnuhtar93tl0d8ps701if8td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.moddakir",
+            "certificate_hash": "0d402205be39d025f0e3bf4b2c8471465fef9dff"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:47ac9a4e13066e84ee94a5",
+        "android_client_info": {
+          "package_name": "com.moddakir.teacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-jfccmdfgu5cu32c47u7i8aavah8qgs5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.teacher",
+            "certificate_hash": "8d7ba87b0bb41e63812d7a548675338d226e8969"
+          }
+        },
+        {
+          "client_id": "973281079104-oldaho8659iu09gk3mjf3rdd96e23mf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.teacher",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:1bb37fc3c0c4d83fee94a5",
+        "android_client_info": {
+          "package_name": "com.moddakir.wl_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-rqd9lotrvp34qasr8mtcf7g2hs4h808a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moddakir.wl_2",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973281079104:android:1e86517f4c778611ee94a5",
+        "android_client_info": {
+          "package_name": "com.twilio.voice.quickstart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973281079104-2n7ntvkqkdrsmfnp6jmm29eg70j52k2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twilio.voice.quickstart",
+            "certificate_hash": "8d7ba87b0bb41e63812d7a548675338d226e8969"
+          }
+        },
+        {
+          "client_id": "973281079104-tl31m84giqtrd9io59651io6a4skt11c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twilio.voice.quickstart",
+            "certificate_hash": "a5cba61eb2f14a4fd6b1516c766adaec39a49f6f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiDF8y2mqcxMN3xAFc8q9tYzJfVOTnSE"
+        },
+        {
+          "current_key": "AIzaSyBuDorunN3D7QGK96nv-py3Wwt5tXuK1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973281079104-4m5ll1ndsuqioai766nmkbbuj3v0ki1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "973281079104-6n0lpb4sau1e878cuc0d2ekkl2a6ae8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Moddakir.breda",
+                "app_store_id": "1582779076"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

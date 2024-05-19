@@ -1,0 +1,4 @@
+include ':Student'
+rootProject.name = 'Moddakir'
+include ':Student'
+include ':mylibrary'

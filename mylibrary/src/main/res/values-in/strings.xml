@@ -1,0 +1,323 @@
+<resources>
+    <string name="teachers_list_female">Daftar guru perempuan</string>
+    <string name="favorite_teachers_female">Guru perempuan favorit</string>
+
+    <string name="teacher_notification">Notifikasi guru pria</string>
+    <string name="teacher_notification_female">Notifikasi guru wanita</string>
+    <string name="history">Tanggal</string>
+    <string name="details">Rincian</string>
+    <string name="invitation">Undangan</string>
+    <string name="shareMyLink">share invitation link</string>
+
+    <string name="myCode">Bagikan tautan:</string>
+    <string name="RegistrationCount">Jumlah Pendaftaran</string>
+    <string name="PurchaseCount">Jumlah Pembelian</string>
+    <string name="charCount">Characters Count</string>
+
+    <string name="purchaced">Pembelian selesai</string>
+    <string name="registered">Pendaftaran selesai</string>
+    <string name="empty_invitations">Tidak ada statistik saat ini, bagikan kode bersama teman-temanmu untuk melihat statistik.</string>
+    <string name="accept_terms_and_conditions"><u>Membuat akun berarti Anda menyetujui syarat dan ketentuan system</u></string>
+    <string name="each_dependent_minutes">1 menit akan ditambahkan kepada setiap pengikut %s</string>
+    <string name="add_user">Tambahkan pengguna</string>
+    <string name="contactus_via_whatsapp"><u>Hubungi kami</u></string>
+
+    <string name="accounts_settings">Akun</string>
+    <string name="create_account">Buat akun baru</string>
+    <string name="add_existing_account">Tambah akun yang sudah ada</string>
+    <string name="switch_account_message">Apakah Anda ingin beralih ke ?</string>
+    <string name="delete_account_message">Delete Account</string>
+    <string name="auth_title">Autentikasi jari</string>
+    <string name="auth_error">Terjadi kesalahan ketika autentikasi</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="are_you_sure_to_delete_the_account">Are you sure to delete the account?</string>
+
+    <string name="select_type">Pilih jenis</string>
+    <string name="activate"><u>Aktifkan</u></string>
+    <string name="verification_message">Pengiriman kode verifikasi ke %s selesai</string>
+    <string name="your_name">Tulis nama Anda</string>
+    <string name="enter_your_mail">Masukkan email Anda</string>
+    <string name="enter_your_password">Tulis kata sandi</string>
+    <string name="type_dialog_message">Silakan memilih jenis akun, kami akan gunakan jenis itu untuk menawarkan guru terbaik untuk Anda.</string>
+    <string name="verify">Verifikasi</string>
+    <string name="enter_promo_code">Masukkan kode terlebih dulu</string>
+    <!--Home preview-->
+    <string name="home_packages_target_title">Paket saat ini</string>
+    <string name="home_packages_target_des">Di sini Anda dapat melihat menit tersisa di semua paket Anda saat ini</string>
+    <string name="home_teachers_target_title_male">Daftar guru pria</string>
+    <string name="home_teachers_target_des_male">Anda dapat mencari guru pria yang Anda favoritkan</string>
+    <string name="home_teachers_target_title_female">Dafar guru wanita</string>
+    <string name="home_teachers_target_des_female">Anda dapat mencari guru wanita yang Anda favoritkan</string>
+    <string name="home_direct_Call_target_title">Panggilan langsung</string>
+    <string name="home_direct_call_target_des_male">Anda dapat menghubungi guru pria terbaik yang ada langsung dengan sekali klik</string>
+    <string name="home_direct_call_target_des_female">Anda dapat menghubungi guru wanita terbaik yang ada langsung dengan sekali klik</string>
+    <string name="home_buy_package_target_title">Berlangganan paket baru</string>
+    <string name="home_buy_package_target_des">Apakah menit habis? Jangan risau, silakan bergabung dalam paket baru kapan saja di sini</string>
+    <!--teachers preview-->
+    <string name="teachers_layout_target_title_male">Menelpon guru pria</string>
+    <string name="teachers_layout_target_title_female">Menelpon guru wanita</string>
+    <string name="teachers_layout_target_des_male">Anda dapat menelpon guru pria mana saja (suara atau video) selama dia ada</string>
+    <string name="teachers_layout_target_des_female">Anda dapat menelpon guru wanita mana saja (suara atau video) selama dia ada</string>
+    <string name="teachers_status_target_des_male">Ada tiga status setiap guru pria, \n- online/tersedia (hijau): guru tersedia dan dapat Anda hubungi. \n- sibuk (merah): guru saat ini sedang tersambung dengan pelajar lain. \n- offline/tidak tersedia (abu-abu): guru tidak tersedia saat ini untuk menerima panggilan pelajar manapun</string>
+    <string name="teachers_status_target_des_female">Ada tiga status setiap guru wanita, \n- online/tersedia (hijau): guru tersedia dan dapat Anda hubungi. \n- sibuk (merah): guru saat ini sedang tersambung dengan pelajar lain. \n- offline/tidak tersedia (abu-abu): guru tidak tersedia saat ini untuk menerima panggilan pelajar manapun</string>
+    <!--packages preview-->
+    <string name="packages_target_title">Tentukan paket yang cocok untuk Anda</string>
+    <string name="packages_target_desc">
+ هنا يمكنك الاطلاع على تفاصيل الباقة وخصم الباقة إن وجد،\nكل باقة لها مدة انتهاء الصلاحية. على سبيل المثال (60 دقيقة / شهر واحد) تعني أن هذه الباقة ستمنحك 60 دقيقة صالحة لمدة شهر واحد.</string>
+    <string name="promo_target_title">Jika Anda memiliki kode paket khusus, Anda dapat menulisnya di sini kemudian klik "Terapkan" untuk mengaktifkan paket khusus Anda.</string>
+    <string name="total_target_des">Di sini Anda akan melihat total biaya yang akan Anda bayarkan setelah dipotong semua diskon jika ada</string>
+    <string name="custom_packages_target_title">Paket khusus!</string>
+    <string name="custom_packages_target_des">Jika Anda memiliki kode diskon, Anda dapat menulisnya di sini kemudian klik "Terapkan" untuk mengaktifkan diskon khusus Anda.</string>
+
+
+    <!--    dependent preview -->
+    <string name="manage_dependent_target_title">Kelola pengikut</string>
+    <string name="add_dependent_target">Tambahkan pengikut baru</string>
+    <string name="all_dependent_balance_target">Di sini Anda akan melihat semua menit yang dibagikan ke semua pengikut</string>
+    <string name="dependent_options_target">Di sini Anda dapat menambah menit/memulihkan menit/dari pengikut terpilih atau menghapus pengikut terpilih.</string>
+
+    <!--transfer balance preview-->
+    <string name="balance_transfer_target">Transfer saldo</string>
+    <string name="select_package_to_transfer_target">Tentukan paket untuk memindah menit</string>
+    <string name="balance_transfer_minutes_target">Tulis jumlah menit yang ingin ditransfer, atau tentukan saldo tersisa untuk mentransfer semua menit tersedia dari paket yang telah ditentukan.</string>
+    <string name="balance_transfer_comments_target">Pilihan, tulislah komentar untuk dikirim bersama menit yang ditransfer</string>
+    <string name="balance_transfer_search">Cari pengguna terdaftar dengan nama khususnya, atau pengguna mana saja (sekalipun belum terdaftar) melalui email atau nomor telponnya.</string>
+    <string name="balance_transfer_beneficiary">Tambahkan pengguna terpilih ke daftar pengguna untuk memungkinkan Anda menransfer menit kepadanya.</string>
+    <string name="balance_transfer_remaining_target">Di sini Anda dapat melihat total saldo Anda setelah transfer.</string>
+    <string name="balance_transfer_lst_guide">Di sini Anda dapat melihat daftar pengguna yang akan dibagikan menit secara merata.</string>
+
+    <string name="completed_payment_message">Pembayaran berhasil dan permintaan Anda sedang diproses, nomor referensi Anda adalah: </string>
+    <string name="payment_error">Terjadi masalah ketika pembayaran %s</string>
+    <string name="payment_cancelled">Proses pembayaran telah dibatalkan.</string>
+    <string name="payment_failed">Maaf, proses pembayaran gagal. Harap dicoba sekali lagi di waktu lain.</string>
+    <string name="package_added_sucessfully">Pembayaran berhasil diselesaikan, dan penambahan paket ke saldo Anda telah selesai.</string>
+    <string name="renew_package_autmatically">Pembaruan otomatis</string>
+    <string name="no_session_avaliable">Anda tidak memiliki sesi</string>
+    <string name="payment_pending">Penanganan permintaan Anda sedang diproses</string>
+    <string name="select_payment_method">Pilih cara bayar</string>
+    <string name="auto_renew">Auto renew</string>
+    <string name="cancel_auto_renew">Cancel the auto renew</string>
+
+    <string name="stcpay_mobile_message">Gunakan telpon ini dengan STC Pay</string>
+    <string name="select_plan_part">Pilih juz</string>
+    <string name="select_plan_surah">Pilih surah</string>
+    <string name="no_plans_found">Tidak menemukan rencana</string>
+    <string name="add_new_plan">Menambahkan rencana</string>
+    <string name="delete_plan_path">Apakah Anda benar-benar ingin menghapus program?</string>
+    <string name="delete_plan">Apakah Anda benar-benar ingin menghapus rencana?</string>
+    <string name="plan_details">Rincian</string>
+    <string name="order">Urutan:</string>
+    <string name="pages_can_save">Jumlah halaman dalam satu sesi:</string>
+    <string name="session_type">Jenis sesi</string>
+    <string name="complete_plan_or_normal_call">Apakah Anda ingin menyelesaikan rencana Anda atau sesi belajar normal?</string>
+    <string name="select_plan_paht">Silakan pilih program</string>
+    <string name="plan_alert_title">Kami senang mendengar suara Anda. Apakah Anda ingin kami membantu Anda menyusun rencana?</string>
+    <string name="teacher_categories">Kategori guru</string>
+    <string name="path_selection_error">Maaf, Anda tidak dapat menentukan sejumlah program dari beragam rencana.</string>
+
+    <string name="add_your_rating">Silakan pilih rating</string>
+    <string name="rate_us">Berikan kami rating</string>
+    <string name="rate_us_body">Terima kasih Anda telah memberi kami rating, Apakah Anda ingin mmberi kami rating melalui Play Store?</string>
+    <string name="enjoy_moddakir">Nikmatilah Moddakir</string>
+    <string name="complete_your_registration_now">Selesaikan pendaftaran Anda sekarang!</string>
+    <string name="Complete_the_registration_process_now">Lengkapi proses pendaftaran sekarang. Langkah-langkah sederhana untuk bergabung bersama keluarga besar Moddakir dan memulai hafalan Al-Qur`an Al-Karim.</string>
+    <string name="register_with_us_now">Daftar bersama kami sekarang!</string>
+    <string name="Take_your_first_step_now_register">Lakukan langkah pertama Anda sekarang dan mendaftarlah bersama kami untuk bergabung bersama keluarga besar Moddakir dan memulai hafalan Al-Qur`an Al-Karim.</string>
+    <string name="backAction">Klik untuk kembali ke halaman sebelumnya.</string>
+    <string name="change_language_button">Tombol mengubah bahasa ke bahasa Inggris</string>
+    <string name="googleLoginAction">Klik untuk masuk menggunakan akun google Anda</string>
+    <string name="twitterLoginAction">Klik untuk masuk menggunakan akun twitter Anda</string>
+    <string name="facebookLoginAction">Klik untuk masuk menggunakan akun Anda di Facebook</string>
+    <string name="whatsappButtonContactUsAcction">Klik untuk bericara dengan kami melalui Whatsapp</string>
+    <string name="loginInsteadAction">Klik untuk masuk daripada membuat akun baru</string>
+    <string name="emailRegisterAction">Klik untuk masuk menggunakan email Anda dan kata kunci</string>
+    <string name="bioAction">Klik untuk masuk menggunakan sidik jari Anda</string>
+    <string name="loginAction">Klik untuk melanjutkan proses masuk</string>
+    <string name="forgotPasswordAction">Klik untuk membuka halaman yang Anda lupa kata kunci</string>
+    <string name="pressToSeeTerms">Klik untuk membaca syarat dan ketentuan kami</string>
+    <string name="openLoginAction">Klik untuk membuka halaman masuk</string>
+    <string name="nextAction">Klik untuk berpindah ke halaman berikutnya</string>
+    <string name="openRegisterAction">Klik untuk membuka halaman pendaftaran</string>
+    <string name="cancelRegisterAction">Klik untuk membatalkan proses pendaftaran</string>
+    <string name="sendAction">Klik untuk mengirim permintaan Anda</string>
+    <string name="resetEmailAction">Klik untuk mengatur ulang kata kunci Anda melalui email Anda</string>
+    <string name="resetPhoneAction">Klik untuk mengatur ulang kata kunci Anda melalui nomor telpon Anda</string>
+    <string name="verifyCodeAction">Klik untuk verifikasi kode</string>
+    <string name="audioCallAction">Klik untuk menghubungi guru melalui panggilan suara</string>
+    <string name="videoCallAction">Klik untuk menghubungi guru melalui panggilan video</string>
+    <string name="teacherRating">Beri rating guru</string>
+    <string name="searchTeacherAction">Klik untuk mencari guru dengan namanya</string>
+    <string name="filterTeacherAction">Klik untuk membuka pilihan filter</string>
+    <string name="closeFilterAction">Klik menyembunyikan jendela filter</string>
+    <string name="clearFilterAction">Klik untuk menghapus semua fungsi filter</string>
+    <string name="nationalityAction">Klik untuk menentukan kewarganegaraan</string>
+    <string name="languageAction">Klik untuk menentukan bahasa</string>
+    <string name="ejazaAction">Klik untuk mennetukan ijazah</string>
+    <string name="categoriesAction">Klik untuk menentukan kategori</string>
+    <string name="deleteSession">Klik untuk menghapus Sesi</string>
+    <string name="reportTeacher">Klik untuk melaporkan guru</string>
+    <string name="shareAction">Klik untuk berlangganan</string>
+    <string name="commentAction">Klik untuk menambahkan komentar Anda</string>
+    <string name="showMoreAction">Klik untuk menampilkan lebih</string>
+    <string name="show_more">Menampilkan lebih banyak</string>
+    <string name="add_new_dependentAction">Klik untuk menambahkan pengikut</string>
+    <string name="rate_us_play">Klik bintang untuk memberi kami rating</string>
+    <string name="write_comment2">Tulis komentar</string>
+    <string name="intro_title">Selamat datang di\nQuickBird Studios\nSurvei Kesehatan</string>
+    <string name="intro_text">Bersiaplah untuk banyak pertanyaan super acak!</string>
+    <string name="intro_start">Ayo kita mulai!</string>
+    <string name="finish_question_title">Selesai!</string>
+    <string name="finish_question_text">Terima kasih telah mengikuti survei, kami akan segera menghubungi Anda!</string>
+    <string name="finish_question_submit">Kirim formulir</string>
+    <string name="skip_here">Lewati di sini</string>
+    <string name="title">Survei</string>
+    <string name="yes">Setuju</string>
+    <string name="no">Batalkan</string>
+    <string name="message">Apakah Anda yakin ingin menyelesaikan survei?</string>
+    <string name="next">Berikutnya</string>
+    <string name="videocall">Video Call</string>
+    <string name="voicecall">Voice call</string>
+    <string name="reservedate">Reserve Date</string>
+    <string name="add_to_favourites">Add to favourites</string>
+    <string name="activate_notifications">Activate notifications</string>
+    <string name="remove_from_favourites">Remove from favourites</string>
+    <string name="de_activate_notifications">Deactivate notifications</string>
+
+    <string name="Unlimited">Tak terbatas</string>
+    <string name="Unlimited2">Tidak terbatas</string>
+    <string name="Unlimited3">Terima kasih Anda memilih paket yang terbuka</string>
+    <string name="basic_user_only">Menit tidak terbatas selama satu bulan -
+Khusus untuk satu pengguna -
+Tidak mendukung penambahan pengikut ataupun transfer saldo -</string>
+
+    <string name="zeroPart">0 juz</string>
+    <string name="scholarship">Beasiswa bagi pelajar miskin</string>
+    <string name="scholarshipGuideMessage">Anda dapat mengirim sejumlah menit sebagai beasiswa bagi pelajar miskin untuk membantu mereka mempelajari Al-Qur`an</string>
+    <string name="amountOfMemorizedQuran">Jumlah hafalan Al-Qur`an</string>
+    <string name="account_details">Informasi akun</string>
+    <string name="customer_language">Bahasa pelanggan</string>
+    <string name="professional_status">Status profesi</string>
+    <string name="age_group1">Kelompok usia</string>
+    <string name="path">Program</string>
+    <string name="saved_amount">Jumlah yang dihafal</string>
+    <string name="use_moddakir">Gunakan Moddakir</string>
+    <string name="session_quality">Jenis sesi</string>
+    <string name="how_to_reply">Cara merespon</string>
+    <string name="teacher_s_compatibility">Kompatibilitas guru</string>
+    <string name="TheTeacherIsBeingReached">Sedang menghubungi guru</string>
+    <string name="wearesorryforteachernotresponding">Kami mohon maaf atas kurangnya respon guru</string>
+    <string name="confirm_deletion_of_the_account_please_enter_the_password">Please enter your password to confirm deletion of the account:</string>
+    <string name="you_will_lose_your_booked_sessions_subscriptions_recorded_session_teachers_comments_interactive_quran">The account will be deleted directly, and you will lose your booked sessions, subscriptions, recorded session and the teacher\'s comments on the interactive holy Quran.</string>
+    <string name="record_of_any_violations_will_be_if_the_user_registers_again_with_the_same_email">Warning: A record of any violations will be retained, if the user registered again with the same email the previous sanctions will be as is.</string>
+
+    <string name="freezed">Freezed</string>
+    <string name="freezedp">Freezed</string>
+    <string name="newP">active</string>
+    <string name="currentP">active</string>
+    <string name="consumedP">consumed</string>
+    <string name="expireP">expired</string>
+    <string name="refundedP">refunded</string>
+
+    <string name="package_valid_for">Valid For</string>
+    <string name="resetof">Reset Of</string>
+    <string name="remaining_of_it">remaining of it</string>
+    <string name="start_from">start from</string>
+
+    <string name="languagechangedsuccessfully">language changed successfully to</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+    <string name="indonesia">Bahasa Indonesia</string>
+    <string name="french">Français</string>
+    <string name="add_dependent_info">Add Dependent Information</string>
+    <string name="edit_dependent_info">Edit Dependent Information</string>
+
+    <string name="choose_dependent_age">choose dependent age</string>
+
+    <string name="chooseeducationalpathforchild">Choose Educational Path For Your Children</string>
+    <string name="chooseeducationalplanforchild">Choose Educational Plan For Your Children</string>
+    <string name="learningquantitypersession">Choose Quantity Of Learning Per Session</string>
+    <string name="numberofeduactionalssesionsatweek">Choose Number of Learning sessions at Week</string>
+    <string name="pleasemakesureaddeightenminutes">Please make sure to add </string>
+    <string name="assessionduration">,as the session duration is </string>
+    <string name="minutesperweek"> minutes per week </string>
+    <string name="choose_nationality">choose nationality</string>
+    <string name="choose_language">choose language</string>
+    <string name="please_choose">Please choose</string>
+    <string name="please_choose_teacher">Please choose teacher</string>
+
+    <string name="addnumberoflinespersession">Enter the number of lines to learn in one session</string>
+    <string name="fieldrequired">This field is required</string>
+    <string name="valuegreatzero">Value Must be greater than 0</string>
+    <string name="valuegreaterthanfiften">Value Must be less than or equal 15</string>
+
+    <string name="educationalpathrequired">you should choose educational path</string>
+    <string name="educationalplanrequired">you should choose educational plan</string>
+    <string name="educationalsessionsequired">you should choose educational sessions</string>
+    <string name="newlessonsuploaded">New lessons have been uploaded</string>
+    <string name="oldlessonsuploaded">Old lessons have been uploaded</string>
+    <string name="lessonsuploaded"> lessons have been uploaded</string>
+    <string name="totalOfTransferedMinutes">Total Of Transfered Minutes</string>
+    <string name="totalOfUsedMinutes">Total Of Used Minutes</string>
+    <string name="totalOfremainingMinutes">Total Of Remaining Minutes</string>
+
+    <string name="age1">3-6</string>
+    <string name="age2">7-9</string>
+    <string name="age3">10-12</string>
+    <string name="age4">13-19</string>
+    <string name="age5">20-39</string>
+    <string name="age6">40-59</string>
+    <string name="age7">60+</string>
+
+    <string name="agerequired">please choose age</string>
+    <string name="teacherrating">Teacher Rating</string>
+    <string name="parentevaluateTeacher">Parent Evaluate Teacher</string>
+    <string name="evaluate">Evaluate</string>
+    <string name="evaluate_teacher">Evaluate teacher</string>
+    <string name="reason_for_evaluate">The reason for evaluation</string>
+    <string name="call_evaluation">What is your satisfaction level with the call quality?</string>
+    <string name="additional_comment">additional comment</string>
+
+    <string name="evaluaterequired">you should press starts to evaluate the teacher</string>
+    <string name="packages">packages</string>
+    <string name="add_package">Add Package</string>
+
+    <string name="enter_valid_data">Enter valid data</string>
+    <string name="comments2">Comments</string>
+    <string name="reserve_session">Reserve a session</string>
+    <string name="begining_session">Beginning of the session</string>
+    <string name="ending_session">Ending of the session</string>
+    <string name="send_request">Send Request</string>
+    <string name="teacher_profile">Teacher profile</string>
+    <string name="notifywhenteacheronline">Notify when teacher available</string>
+    <string name="connection_evaluation_required">Please evaluate the connection</string>
+    <string name="package_not_available">This Package is not available!</string>
+    <string name="you_must_active">you must activate your phone number</string>
+    <string name="valid_mobile_num">please add valid mobile number</string>
+    <string name="by_using">Using</string>
+    <string name="or">Or</string>
+    <string name="male1">Male</string>
+    <string name="female1">Female</string>
+    <string name="already_have_account1">Already have an account?</string>
+    <string name="calmness_and_attentiveness">The teacher\'s calmness and attentiveness</string>
+    <string name="style_and_interaction">style and interaction with me</string>
+    <string name="opinion_of_the_teacher">What is your opinion of the teacher</string>
+    <string name="mistake_and_correction">attention to my mistakes and correcting</string>
+    <string name="comment_for_the_teacher">A comment for the teacher</string>
+    <string name="a_comment">Type here</string>
+    <string name="connection">\"What do you think of the call quality and internet connection</string>
+    <string name="email_optional">Email (optional)</string>
+    <string name="donate_educational_minutes">Do you want to donate educational minutes?</string>
+    <string name="number_of_min">Write the number of minutes you want to donate.</string>
+    <string name="The_purchase_has_been_successfully_cancelled">The purchase has been successfully cancelled</string>
+    <string name="The_purchase_has_been_not_successfully_cancelled">The purchase hasn\'t been successfully cancelled</string>
+    <string name="please_select_the_checkbox_below_to_proceed">Please select the checkbox below to proceed</string>
+    <string name="i_m_not_a_robot">I\\\'m not a robot</string>
+    <string name="please_confirm_that_you_are_not_a_robot">Please verify that you are not a robot</string>
+    <string name="please_wait_we_re_connecting_you_to_your_teacher">we’re connecting you to your teacher..</string>
+    <string name="please_wait">Please wait</string>
+    <string name="hangup">Hangup</string>
+    <string name="confirm">Confirm</string>
+    <string name="thank_you_for_your_rating">Thank you for your rating</string>
+    <string name="response_recorded">Response recorded</string>
+
+</resources>

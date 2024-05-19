@@ -1,0 +1,321 @@
+<resources>
+    <string name="teachers_list_female">معلمات كی لسٹ</string>
+    <string name="favorite_teachers_female">فیوریٹ معلمات</string>
+
+    <string name="teacher_notification">معلم كی اطلاعات</string>
+    <string name="teacher_notification_female">معلمہ كی اطلاعات</string>
+    <string name="history">تاریخ</string>
+    <string name="details">تفاصیل</string>
+    <string name="invitation">دعوتیں</string>
+    <string name="shareMyLink">مشاركة الرابط الخاص بي</string>
+    <string name="myCode">لیك شیر كرنا</string>
+    <string name="RegistrationCount">رجسٹریشن شمار</string>
+    <string name="PurchaseCount">خریدی كا شمار</string>
+    <string name="charCount">عدد الاحرف المنجزة</string>
+
+    <string name="purchaced">خریدا گيا</string>
+    <string name="registered">رجسٹریشن ہوچكا</string>
+    <string name="empty_invitations">اعداد و شمار موجود نہیں ،ابھی آپ اپنے دوستوں میں شمار كے مشاہدے كے لئےكوڈ شیر كریں</string>
+    <string name="accept_terms_and_conditions"><u>اكاونٹ بنانا ، یعنی آپ نظام كے قوانین و شروط سے متفق ہیں </u></string>
+    <string name="each_dependent_minutes">ہر ما تحت كے لیے منٹ  %s عنقریب ایڈ كیا جائے گآ</string>
+    <string name="add_user">یوزر كو ایڈ كریں</string>
+    <string name="contactus_via_whatsapp"><u>ہم سے رابطہ كریں</u></string>
+
+    <string name="accounts_settings">اكاونٹس</string>
+    <string name="create_account">نیا اكاونٹ كریٹ كرنا</string>
+    <string name="add_existing_account">موجود اكاونٹ ایڈ كرنا</string>
+    <string name="switch_account_message">كیا آپ تبدیل كرنا چاہتے ہیں، اس كی طرف ؟  </string>
+    <string name="delete_account_message">إلغاء الحساب</string>
+    <string name="auth_title">انگلی كی تصدیق</string>
+    <string name="auth_error">تصدیق كے دوران غلطی ہوگئی</string>
+    <string name="delete_account">حذف الحساب</string>
+    <string name="are_you_sure_to_delete_the_account">متأكد من حذف الحساب ؟</string>
+
+    <string name="select_type">نوعیت اختیار كریں</string>
+    <string name="activate"><u>ایكٹیو</u></string>
+    <string name="verification_message">ویری فیكیشن كوڈ ارسال كیا گیا اس كی طرف%s</string>
+    <string name="your_name">اپنا نام لكھیں</string>
+    <string name="enter_your_mail">اپنا ایمیل لكھیں</string>
+    <string name="enter_your_password">پاس ورڈ لكھیں</string>
+    <string name="type_dialog_message">مہربانی كركے اكاونٹ كی نوعیت منتخب كریں ،آپ كے لئے افضل معلمین پیش كرنے كےلئے ہم اس نوع كی خدمت كریں گے </string>
+    <string name="verify">ویری فائی</string>
+    <string name="enter_promo_code">پہلے كوڈ داخل كریں</string>
+    <!--Home preview-->
+    <string name="home_packages_target_title">موجودہ پیكیج</string>
+    <string name="home_packages_target_des">آپ كے تمام موجودہ پیكیج میں بچے ہوئے منٹس آپ یہاں دیكھ سكیں گے </string>
+    <string name="home_teachers_target_title_male">معلمین كی لسٹ </string>
+    <string name="home_teachers_target_des_male">آپ اپنے فیوریٹ معلم كو تلاش كر سكتے ہیں</string>
+    <string name="home_teachers_target_title_female">معلمات كی لسٹ</string>
+    <string name="home_teachers_target_des_female">آپ اپنے فیوریٹ معلمہ كو تلاش كر سكتے ہیں</string>
+    <string name="home_direct_Call_target_title">ڈائركٹ كال</string>
+    <string name="home_direct_call_target_des_male">ایك كلك میں آپ ڈائركٹ دستیاب افضل معلم كو كال كرسكتے ہیں</string>
+    <string name="home_direct_call_target_des_female">ایك كلك میں آپ ڈائركٹ دستیاب افضل معلمہ كو كال كرسكتے ہیں</string>
+    <string name="home_buy_package_target_title">نیا پیكیج خریدیں</string>
+    <string name="home_buy_package_target_des">كیا منٹ ختم ہو گئے ،؟پریشان نہ ہوں ، یہاں سے آپ كوئی بھی نیا پیكیج خرید سكتے ہیں</string>
+    <!--teachers preview-->
+    <string name="teachers_layout_target_title_male">معلم كو كال كریں</string>
+    <string name="teachers_layout_target_title_female">معلمہ كو كال كریں</string>
+    <string name="teachers_layout_target_des_male">معلم كے موجود ہونے كے وقت آپ كسی بھی معلم كو آڈیو و ویڈیو كال كرسكتے ہیں</string>
+    <string name="teachers_layout_target_des_female">معلمہ كے موجود ہونے كے وقت آپ كسی بھی معلمہ كو آڈیو و ویڈیو كال كرسكتے ہیں</string>
+    <string name="teachers_status_target_des_male">یہاں ہر معلم كے تین حالات ہیں \n-كنكٹ ، دستیاب(گرین) :معلم دستیاب ہیں آپ ان كو كال كرسكتے ہیں ،\n-بزی (ریڈ) :معلم بروقت دوسرے طالب علم كے كال پر ہیں ،\n-  (رمادی)  معلم كسی بھی طالب علم كی كال اس وقت نہیں لے سكتا </string>
+    <string name="teachers_status_target_des_female">یہاں ہر معلمہ كے تین حالات ہیں \n-كنكٹ ، دستیاب(گرین) :معلمہ دستیاب ہیں آپ ان كو كال كرسكتے ہیں ،\n-بزی (ریڈ) :معلمہ بروقت دوسرے طالبہ  كے كال پر ہیں ،\n-  (رمادی)  معلمہ كسی بھی طالبہ  كی كال اس وقت نہیں لے سكتی</string>
+    <!--packages preview-->
+    <string name="packages_target_title">اپنے لئے مناسب بیكیج كی تحدید كریں</string>
+    <string name="packages_target_desc">
+ هنا يمكنك الاطلاع على تفاصيل الباقة وخصم الباقة إن وجد،\nكل باقة لها مدة انتهاء الصلاحية. على سبيل المثال (60 دقيقة / شهر واحد) تعني أن هذه الباقة ستمنحك 60 دقيقة صالحة لمدة شهر واحد.</string>
+    <string name="promo_target_title">اگر آپ كے پاس اسپیشل پیكیج كا كوڈ ہے تو اسے یہاں لكھیں پھر اپلیكیشن پر كلك كریں</string>
+    <string name="total_target_des">اگر اسپیشل پیكیج ہے تو ساری ڈسكاونٹ كے بعد جو ٹوٹل مبلغ آپ نے ادا كیا ہے اسے دیكھ سكتے ہیں </string>
+    <string name="custom_packages_target_title">اسپیشل پیكیج </string>
+    <string name="custom_packages_target_des">اگر آپ كے پاس ڈسكاونٹ پیكیج كا كوڈ ہے تو اسے یہاں لكھیں پھر اپلیكیشن پر كلك كریں</string>
+
+
+    <!--    dependent preview -->
+    <string name="manage_dependent_target_title">ماتحتین كا ادارہ</string>
+    <string name="add_dependent_target">نئے ماتحت كو ایڈ كریں</string>
+    <string name="all_dependent_balance_target">یہاں تمام ماتحتین كے درمیان تقسیم شدہ منٹ كو آپ دیكھ سكتے ہیں</string>
+    <string name="dependent_options_target">یہاں آپ منٹ ایڈ كرسكتے ہیں /منٹس واپس لے سكتے ہیں /چنیدہ ماتحتین سے /یا ڈیلیٹ </string>
+
+    <!--transfer balance preview-->
+    <string name="balance_transfer_target">بیلینس ٹرانسفر</string>
+    <string name="select_package_to_transfer_target">پیكیج سلكیٹ كریں تاكہ ان میں سے منٹس منتقل ہوں</string>
+    <string name="balance_transfer_minutes_target">جتنے منٹس آپ ٹرانسفر كرنا چاہتے ہیں ان كی تعداد لكھیں ،یا سلیكٹ پیكیج میں سے تمام بچے ہوئے منٹس كو ٹرانسفر كرنے كےلئے پچے ہوئے بیلینس كو سلیكٹ كریں</string>
+    <string name="balance_transfer_comments_target">سلیكٹ كے ذریعہ نقل شدہ منٹس كے ساتھ بھیجنے كے لئے كمنٹ لكھیں</string>
+    <string name="balance_transfer_search">كسی بھی یوزركو جو خاص یوزر نیم كے ساتھ رجسٹر ہو ،یا كسی دوسرے یوزر كو جو گرچہ نہ رجسٹر ہو  ، اس كے ایمیل اور فون كے ذریعہ اسے تلاشیں</string>
+    <string name="balance_transfer_beneficiary">بینی فیشری لسٹ میں اپنے پسندیدہ یوزر كو ایڈ كریں تاكہ اس میں منٹس كو ٹرانسفر كرسكیں</string>
+    <string name="balance_transfer_remaining_target">یہاں آپ ٹرانسفر كے بعد اپنا بیلینس دیكھ سكتے ہیں </string>
+    <string name="balance_transfer_lst_guide">یہاں آپ یوزرس كی لسٹ جن پر منٹس ٹرانسفر ہو چكے ہیں انہیں دیكھ سكتے ہیں </string>
+
+    <string name="completed_payment_message">كامیابی سے پے ہو چكا ، اور آپ كی ركوئیسٹ كے تنفیذ كا عمل جاری ہے ،مرجعی نمبر یہ ہے </string>
+    <string name="payment_error">ادائگی پیمینٹ ایرر كا مشكل ہو گیا </string>
+    <string name="payment_cancelled">پیمینٹ كی كارروائی كینسل ہوچكی </string>
+    <string name="payment_failed">معذرت ، پیمینٹ كی كارروائی ناكام ہو چكی ، اور لگے ہاتھوں دوبارہ كوشش كریں</string>
+    <string name="package_added_sucessfully">كامیابی سے پیمینت كی ادائیگی كا كام مكمل ہوا، اور پیكیج آپ كے بیلینس میں ایڈ كردیا گيا</string>
+    <string name="renew_package_autmatically">آٹو میٹك تجدید</string>
+    <string name="no_session_avaliable">آپ كے پاس كوئی سیشن نہیں </string>
+    <string name="payment_pending">آپ كی ریكوئسٹ كی معالجہ جاری ہے </string>
+    <string name="select_payment_method">پیمینٹ كی ادائیكي كا طریقہ سلیكٹ كریں</string>
+    <string name="auto_renew">تجديد الباقة تلقائيا</string>
+    <string name="cancel_auto_renew">إلغاء التجديد التلقائي</string>
+
+    <string name="stcpay_mobile_message">اس موبائل كو STC Pay كے ساتھ استعمال كریں</string>
+    <string name="select_plan_part">پارہ انتخاب كریں</string>
+    <string name="select_plan_surah">سورت اختیار كریں</string>
+    <string name="no_plans_found">پلان كی جان كاری حاصل نہیں ہوئی</string>
+    <string name="add_new_plan">پلان ایڈ كرنا</string>
+    <string name="delete_plan_path">كیا واقعی آپ پیتھ كو دیلیٹ كرنا چاہتے ہیں؟</string>
+    <string name="delete_plan">كیا واقعی آپ پلان كو دیلیٹ كرنا چاہتے ہیں؟</string>
+    <string name="plan_details">تفاصیل</string>
+    <string name="order">ترتیب:</string>
+    <string name="pages_can_save">ایك سیشن میں وجہ كی تعداد</string>
+    <string name="session_type">سیشن كی نوعیت</string>
+    <string name="complete_plan_or_normal_call">كیا آپ اپنے پلان كی تكمیل چاہتے ہیں يا نارمل تعلیمی سیشن؟</string>
+    <string name="select_plan_paht">مہربانی كركے پیتھ سلیكٹ كریں</string>
+    <string name="plan_alert_title">آپ كی آواز سن كر ہمیں خوشی ہوئی، كیا ہم آپ كے پلان كی تعمیر كے لئے آپ كی مددكریں؟</string>
+    <string name="teacher_categories">معلم كی كٹگری</string>
+    <string name="path_selection_error">معذرت ، مختلف پلان سے پیتھوں كی تحدید ممكن نہیں </string>
+
+    <string name="add_your_rating">مہربانی سے تشخیص ایڈ كریں</string>
+    <string name="rate_us">ہماری تشخیص</string>
+    <string name="rate_us_body">آپ كے تشخیص كرنے كا شكریہ، كیا آپ متجر كے ذریعہ ہماری تشخیص كرنا چاہتے ہیں ؟</string>
+    <string name="enjoy_moddakir">مدكر سے انجوائے كریں</string>
+    <string name="complete_your_registration_now">اب آپ اپنا رجسٹریشن كمپلیٹ كریں</string>
+    <string name="Complete_the_registration_process_now">اب آپ رجسٹریشن كی كارروائی مكمل كریں ،مدكر فیملی سے جڑنے كے لئے معمولی پروسس ہیں ، اور قرآن كریم كے حفظ كا سفر شروع كریں</string>
+    <string name="register_with_us_now">اب آپ ہمارے یہاں رجسٹریشن كریں</string>
+    <string name="Take_your_first_step_now_register">اب آپ پہلا اسٹیپ لیں ، اور مدكر فیملی سے جوائن ہونے كے لئے ہمارے یہاں رجسٹر كریں ،اور قرآن كریم كے حفظ كا سفر شروع كریں</string>
+    <string name="backAction">سابقہ اسكرین كی طرف واپس آنے كے لئے كلك كریں</string>
+    <string name="change_language_button">انگلش كی طرف زبان تبدیل كرنے كا بٹن</string>
+    <string name="googleLoginAction">اپنے خاص Google اكاونٹ كے استعمال كرتے ہوئے لاگن ان كلك كریں</string>
+    <string name="twitterLoginAction">اپنے خاصTwitter اكاونٹ كے استعمال كرتے ہوئے لاگن ان كلك كریں</string>
+    <string name="facebookLoginAction">اپنے خاصFacebook اكاونٹ كے استعمال كرتے ہوئے لاگن ان كلك كریں</string>
+    <string name="whatsappButtonContactUsAcction"> كے ذریعہ ہم سے رابطے كے لئے كلك كریں Whatsapp</string>
+    <string name="loginInsteadAction">نئے اكاونٹ بنانے كے بدلے لاگ ان كلك كریں</string>
+    <string name="emailRegisterAction">ایمیل اور پاس ورڈ كو استعمال كرتے ہوئے رجسٹر كے لئے كلك كریں</string>
+    <string name="bioAction">اپنے فنگر پرنٹس كا استعمال كرتے ہوئے لاگ ان كلك كریں</string>
+    <string name="loginAction">لاگ ان كی كارروائی مكمل كرنے كےلئے كلك كریں</string>
+    <string name="forgotPasswordAction">پاس ورڈ بھول گيا  كے اسكرین كھولنے كے لئے كلك كریں</string>
+    <string name="pressToSeeTerms">ہمارے خاص احكام و شروط پڑھنے كےلئے كلك كریں</string>
+    <string name="openLoginAction">لاگ ان  اسكرین كھولنے كے لئے كلك كریں</string>
+    <string name="nextAction">نیكس اسكرین كی طرف منتقل ہونے كےلئے كلك كریں </string>
+    <string name="openRegisterAction">رجسٹر اسكرین كھولنے كےلئے كلك كریں </string>
+    <string name="cancelRegisterAction">رجسٹر كی كارروائی كینسل كرنے كے لئے كلك كریں</string>
+    <string name="sendAction">اپنی درخواست بھیجنے كے لئے كلك كریں</string>
+    <string name="resetEmailAction">ایمیل كے ذریعہ اپنے خاص پاس ورڈ كے ری سیٹ كے اعادہ كے لئے كلك كریں</string>
+    <string name="resetPhoneAction">فون نمبر كے ذریعہ  اپنے خاص پاس ورڈ كے ری سیٹ كے اعادہ كے لئے كلك كریں</string>
+    <string name="verifyCodeAction">كوڈ كےویری فائی كے لئے كلك كریں </string>
+    <string name="audioCallAction">آڈیو كال كے ذریعہ معلم سے رابطے كے لئے كلك كریں </string>
+    <string name="videoCallAction">ویڈیو كال كے ذریعہ معلم سے رابطے كے لئے كلك كریں </string>
+    <string name="teacherRating">معلم كی تشخیص</string>
+    <string name="searchTeacherAction">معلم كو اس كے نام سے تلاش كرنے كےلئے كلك كریں</string>
+    <string name="filterTeacherAction">فلٹر كے خیارات كو كھولنے كے لئے كلك كریں </string>
+    <string name="closeFilterAction">فلٹر پاب اپ كو چھپانے كے لئے كلك كریں</string>
+    <string name="clearFilterAction">فلٹر كے تمام اسباب كو حذف كرنے كے لئے كلك كریں</string>
+    <string name="nationalityAction">قومیت كی تحدیدكے لئے كلك كریں</string>
+    <string name="languageAction">زبان كی تحدید كے لئے كلك كریں </string>
+    <string name="ejazaAction">اجازہ كی تحدید كے لئے كلك كریں</string>
+    <string name="categoriesAction">كیٹگری كی تحدید كے لئے كلك كریں</string>
+    <string name="deleteSession">سیش كے ڈیلیٹ كے لئے كلك كریں</string>
+    <string name="reportTeacher">معلم كی رپورٹ كے لئے كلك كریں</string>
+    <string name="shareAction">شیر كرنے  كے لئے كلك كریں</string>
+    <string name="commentAction">كمنٹ ایڈ كرنے كے لئے كلك كریں</string>
+    <string name="showMoreAction">اور زیادہ پیش كرنے كے لئے كلك كریں</string>
+    <string name="show_more">مزید دکھائیں</string>
+    <string name="add_new_dependentAction">ماتحت ایڈ كرنے كے لئے كلك كریں</string>
+    <string name="rate_us_play">ہماری تشخیص كے اسٹار پر  كلك كریں</string>
+    <string name="write_comment2">كمنٹ لكھیں</string>
+    <string name="intro_title">Welcome to the\nQuickBird Studios\nHealth Survey</string>
+    <string name="intro_text">Get ready for a bunch of super random questions!</string>
+    <string name="intro_start">آئیں اور شروع كریں</string>
+    <string name="finish_question_title">ہو گیا </string>
+    <string name="finish_question_text">Thanks for taking the survey, we will contact you soon!</string>
+    <string name="finish_question_submit">سوالنامہ ارسال كریں</string>
+    <string name="skip_here">چھوڑ دو یہاں </string>
+    <string name="title">تعلیمی سروے </string>
+    <string name="yes">موافق</string>
+    <string name="no">كینسل</string>
+    <string name="message">كیا آپ كنفرم ہیں كہ اس معلومات كو ختم كرنا چاہتے ہیں ؟</string>
+    <string name="next">آنے والے</string>
+    <string name="videocall">اتصال مرئي</string>
+    <string name="voicecall">اتصال صوتى</string>
+    <string name="reservedate">حجز موعد</string>
+    <string name="add_to_favourites">إضافة للمفضلين</string>
+    <string name="activate_notifications">تفعيل الإشعارات</string>
+    <string name="remove_from_favourites">حذف من المفضلين</string>
+    <string name="de_activate_notifications">إيقاف الاشعارات</string>
+
+    <string name="Unlimited">ان لیمیٹیڈ</string>
+    <string name="Unlimited2">ان لیمیٹیڈ</string>
+    <string name="Unlimited3">ان لیمیٹیڈ پیكیج چوائز كرنے پر آپ كا شكریہ</string>
+    <string name="basic_user_only">ان لیمٹیڈ منٹ/ایك مہینہ كے  لئے ، ایك یوزر كے لئے اسپیشل   ،      ماتحتین كے اضافے كو سپورٹ نہیں كررہا ہے ،یا بیلینس ٹرانسفر</string>
+
+    <string name="zeroPart">پارہ صفر</string>
+    <string name="scholarship">تنگ دست طلاب كے لئے اسكالرشپ</string>
+    <string name="scholarshipGuideMessage">تعلیم قرآن پر تنگ دست طلاب كی مدد كی خاطر اسكالرشپ كے طورپر منٹس ارسال كرسكتے ہیں</string>
+    <string name="amountOfMemorizedQuran">حفظ قرآن كا مقدار</string>
+    <string name="account_details">اكاونٹ كا ڈیٹیل</string>
+    <string name="customer_language">كاركن كی زبان</string>
+    <string name="professional_status">پیشہ كی حالت </string>
+    <string name="age_group1">عمر كا مرحلہ </string>
+    <string name="path">پیتھ</string>
+    <string name="saved_amount">محفوظ كی مقدار</string>
+    <string name="use_moddakir">مدكر كا استعمال</string>
+    <string name="session_quality">سیشن كی نوعیت </string>
+    <string name="how_to_reply">جواب كا طریقہ </string>
+    <string name="teacher_s_compatibility">معلم كی موافقت</string>
+    <string name="TheTeacherIsBeingReached">معلم تك رسائی جاری ہے </string>
+    <string name="wearesorryforteachernotresponding">استاد کی طرف سے جواب نہ دینے پر ہم معذرت خواہ ہیں۔</string>
+
+    <string name="confirm_deletion_of_the_account_please_enter_the_password">لتأكيد حذف الحساب يرجي إدخال كلمة المرور:</string>
+    <string name="you_will_lose_your_booked_sessions_subscriptions_recorded_session_teachers_comments_interactive_quran">سيتم حذف الحساب مباشرة وستفقد جلساتك المحجوزة واشتراكاتك وجلساتك المسجلة وتعليقات المدرسين على القرآن الكريم التفاعلي.</string>
+    <string name="record_of_any_violations_will_be_if_the_user_registers_again_with_the_same_email">تحذير: سيتم الاحتفاظ بسجل لأي انتهاكات ، إذا سجل المستخدم مرة أخرى بنفس البريد الإلكتروني ، فستكون العقوبات السابقة كما هي</string>
+    <string name="freezed">تجميد</string>
+    <string name="freezedp">مجمدة</string>
+    <string name="newP">فعالة</string>
+    <string name="currentP">فعالة</string>
+    <string name="consumedP">منتهية</string>
+    <string name="expireP">منتهية الصلاحية</string>
+    <string name="refundedP">مستردة</string>
+
+    <string name="package_valid_for">صالحة لمدة</string>
+    <string name="resetof">متبقي من</string>
+    <string name="remaining_of_it">متبقي منها</string>
+    <string name="start_from">ابتداءاً من</string>
+
+    <string name="languagechangedsuccessfully">تم تغيير اللغة بنجاح الى </string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+    <string name="indonesia">Bahasa Indonesia</string>
+    <string name="french">Français</string>
+    <string name="add_dependent_info">إضافة معلومات التابع</string>
+    <string name="edit_dependent_info">تعديل معلومات التابع</string>
+
+    <string name="choose_dependent_age">إختر عمر التابع</string>
+    <string name="chooseeducationalpathforchild">إختر المسار التعليمي لطفلك</string>
+    <string name="chooseeducationalplanforchild">إختر الخطة التعليمية لطفلك</string>
+    <string name="learningquantitypersession">مقدار التعلم فى الجلسة الواحدة</string>
+    <string name="numberofeduactionalssesionsatweek">عدد الجلسات التعليمية لطفلك خلال الاسبوع</string>
+    <string name="pleasemakesureaddeightenminutes">من فضلك تأكد من إضافة  </string>
+    <string name="assessionduration"> حيث أن مدة الجلسة</string>
+    <string name="minutesperweek"> دقيقة اسبوعيا</string>
+
+    <string name="choose_nationality">من فضلك قم بإختيار الجنسية</string>
+    <string name="choose_language">من فضلك قم بإختيار اللغة</string>
+    <string name="please_choose">من فضلك قم بالإختيار</string>
+    <string name="please_choose_teacher">من فضلك قم بإختيار معلم</string>
+
+
+    <string name="addnumberoflinespersession">أدخل عدد السطور للتعلم فى الجلسة الواحدة</string>
+
+    <string name="valuegreatzero">يجب ان تكون القيمة اكبر من صفر</string>
+    <string name="valuegreaterthanfiften">يجب ان تكون القيمة اصغر من او تساوى 15</string>
+
+    <string name="fieldrequired">هذا الحقل مطلوب</string>
+    <string name="educationalpathrequired">يجب اختيار المسار التعليمي </string>
+    <string name="educationalplanrequired">يجب اختيار الخطة التعليمية</string>
+    <string name="educationalsessionsequired">يجب تحديد عدد الجلسات</string>
+    <string name="newlessonsuploaded">لقد تم تحميل دروس جديدة</string>
+    <string name="oldlessonsuploaded">لقد تم تحميل الدروس السابقة</string>
+    <string name="lessonsuploaded"> لقد تم تحميل دروس أخرى</string>
+    <string name="totalOfTransferedMinutes">مجموع الدقائق المحولة</string>
+    <string name="totalOfUsedMinutes">مجموع الدقائق المستخدمة</string>
+    <string name="totalOfremainingMinutes">مجموع الدقائق المتبقية</string>
+
+
+    <string name="age1">3-6</string>
+    <string name="age2">7-9</string>
+    <string name="age3">10-12</string>
+    <string name="age4">13-19</string>
+    <string name="age5">20-39</string>
+    <string name="age6">40-59</string>
+    <string name="age7">60+</string>
+
+    <string name="agerequired">يرجى أدخال عمر التابع</string>
+    <string name="teacherrating">تقييم المعلم</string>
+    <string name="parentevaluateTeacher">تقييم ولى الأمر للمعلم</string>
+    <string name="evaluate">تقييم</string>
+    <string name="evaluate_teacher">تقييم المعلم</string>
+    <string name="reason_for_evaluate">سبب اختيار التقييم</string>
+    <string name="call_evaluation">ما مدى رضائك عن جودة الاتصال</string>
+    <string name="additional_comment">تعليق إضافي</string>
+
+    <string name="evaluaterequired">يجب الضغط على النجوم من أجل تقييم المعلم</string>
+    <string name="packages">الباقات</string>
+    <string name="add_package">اضافة باقة</string>
+    <string name="enter_valid_data">قم بإدخال بيانات صحيحة</string>
+    <string name="comments2">ملاحظات</string>
+    <string name="reserve_session">حجز جلسة</string>
+    <string name="begining_session">بداية الجلسة</string>
+    <string name="ending_session">نهاية الجلسة</string>
+    <string name="send_request">إرسال الطلب</string>
+    <string name="teacher_profile">حساب المعلم</string>
+    <string name="notifywhenteacheronline">أعلمنى عندما يكون المعلم متاحا</string>
+    <string name="connection_evaluation_required">يرجى تقييم جودة الإتصال</string>
+    <string name="package_not_available">الباقة غير متاحة</string>
+    <string name="you_must_active">you must activate your phone number</string>
+    <string name="valid_mobile_num">please add valid mobile number</string>
+    <string name="or">Or</string>
+    <string name="male1">Male</string>
+    <string name="female1">Female</string>
+    <string name="already_have_account1">Already have an account?</string>
+    <string name="calmness_and_attentiveness">The teacher\'s calmness and attentiveness</string>
+    <string name="style_and_interaction">style and interaction with me</string>
+    <string name="opinion_of_the_teacher">What is your opinion of the teacher</string>
+    <string name="mistake_and_correction">attention to my mistakes and correcting</string>
+    <string name="comment_for_the_teacher">A comment for the teacher</string>
+    <string name="a_comment">Type here</string>
+    <string name="connection">\"What do you think of the call quality and internet connection</string>
+    <string name="email_optional">Email (optional)</string>
+    <string name="donate_educational_minutes">Do you want to donate educational minutes?</string>
+    <string name="number_of_min">Write the number of minutes you want to donate.</string>
+    <string name="The_purchase_has_been_successfully_cancelled">The purchase has been successfully cancelled</string>
+    <string name="The_purchase_has_been_not_successfully_cancelled">The purchase hasn\'t been successfully cancelled</string>
+    <string name="please_select_the_checkbox_below_to_proceed">Please select the checkbox below to proceed</string>
+    <string name="i_m_not_a_robot">I\\\'m not a robot</string>
+    <string name="please_confirm_that_you_are_not_a_robot">Please verify that you are not a robot</string>
+    <string name="please_wait_we_re_connecting_you_to_your_teacher">we’re connecting you to your teacher..</string>
+    <string name="please_wait">Please wait</string>
+    <string name="hangup">Hangup</string>
+    <string name="confirm">Confirm</string>
+    <string name="thank_you_for_your_rating">Thank you for your rating</string>
+   <string name="response_recorded">Response recorded</string>
+
+</resources>
