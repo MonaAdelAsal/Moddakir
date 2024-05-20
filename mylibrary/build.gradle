@@ -95,15 +95,25 @@ dependencies {
     api 'com.intuit.sdp:sdp-android:1.0.6'
     api 'com.intuit.ssp:ssp-android:1.0.6'
 }
+
+
 afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.debug
-                groupId 'com.github.MonaAdelAsal'
-                artifactId 'moddakir_sdk'
-                version '1.6'
-            }
+                components.getByName('release')
+                    groupId 'com.github.MonaAdelAsal'
+                    artifactId 'moddakir_sdk'
+                    version '1.7'
+                }
+
+            debug(MavenPublication) {
+                components.getByName('debug')
+                    groupId 'com.github.MonaAdelAsal'
+                    artifactId 'moddakir_sdk'
+                    version '1.7'
+                }
+
         }
     }
 }
