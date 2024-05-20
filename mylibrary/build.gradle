@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
-    id 'realm-android'
     id 'maven-publish'
+    id 'realm-android'
 }
 
 android {
@@ -22,17 +22,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField "String", BASE_URL, "\"https://" + URLAPi + "/" + VersionPro + "/api/\""
-            buildConfigField "String", SOCKET_URL, "\"https://" + SOCKETURL + "\""
-        }
-        debug {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             //buildConfigField "String", BASE_URL, "\"https://" + URLAPi + "/" + VersionPro + "/api/\""
             //buildConfigField "String", SOCKET_URL, "\"https://" + SOCKETURL + "\""
             buildConfigField "String", SOCKET_URL, "\"https://" + EnvDEV + SOCKETURL + "\""//dev
             buildConfigField "String", BASE_URL, "\"https://api-dev.moddakir.com/v2/api/\""//dev
-
         }
     }
     compileOptions {
@@ -101,19 +94,11 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                components.getByName('release')
-                    groupId 'com.github.MonaAdelAsal'
-                    artifactId 'moddakir_sdk'
-                    version '1.7'
-                }
-
-            debug(MavenPublication) {
-                components.getByName('debug')
-                    groupId 'com.github.MonaAdelAsal'
-                    artifactId 'moddakir_sdk'
-                    version '1.7'
-                }
-
+                from components.release
+                groupId 'com.github.MonaAdelAsal'
+                artifactId 'Moddakir'
+                version '1.0'
+            }
         }
     }
 }

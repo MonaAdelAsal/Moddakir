@@ -122,7 +122,7 @@ public class ApiManager {
 
     private Retrofit createRetrofit(boolean IsAuth,boolean IsVerification, String... token) {
         return new Retrofit.Builder()
-                .baseUrl(BuildConfig.BASE_URL)
+                .baseUrl("https://api-dev.moddakir.com/v2/api/")
                 .addConverterFactory(GsonConverterFactory.create()) // <- add this
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .client(getUnsafeOkHttpClient(IsAuth, IsVerification,token).build())
