@@ -2,6 +2,8 @@ package com.moddakir.mylibrary.API;
 
 import android.content.Context;
 import android.content.Intent;
+
+import com.moddakir.mylibrary.BuildConfig;
 import com.moddakir.mylibrary.Constants;
 import com.moddakir.mylibrary.API.ApiCalls.UserCalls;
 import com.moddakir.mylibrary.utils.AccountPreference;
@@ -120,7 +122,7 @@ public class ApiManager {
 
     private Retrofit createRetrofit(boolean IsAuth,boolean IsVerification, String... token) {
         return new Retrofit.Builder()
-                .baseUrl("https://api-dev.moddakir.com/v2/api/")
+                .baseUrl(BuildConfig.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create()) // <- add this
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .client(getUnsafeOkHttpClient(IsAuth, IsVerification,token).build())

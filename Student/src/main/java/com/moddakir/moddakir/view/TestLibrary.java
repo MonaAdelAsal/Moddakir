@@ -1,9 +1,7 @@
 package com.moddakir.moddakir.view;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-
 import com.moddakir.moddakir.R;
 import com.moddakir.mylibrary.view.agora.AgoraActivity;
 

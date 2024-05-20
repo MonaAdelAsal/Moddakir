@@ -19,7 +19,18 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "String", BASE_URL, "\"https://" + URLAPi + "/" + VersionPro + "/api/\""
+            buildConfigField "String", SOCKET_URL, "\"https://" + SOCKETURL + "\""
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //buildConfigField "String", BASE_URL, "\"https://" + URLAPi + "/" + VersionPro + "/api/\""
+            //buildConfigField "String", SOCKET_URL, "\"https://" + SOCKETURL + "\""
+            buildConfigField "String", SOCKET_URL, "\"https://" + EnvDEV + SOCKETURL + "\""//dev
+            buildConfigField "String", BASE_URL, "\"https://api-dev.moddakir.com/v2/api/\""//dev
+
         }
     }
     compileOptions {
@@ -54,7 +65,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads-identifier:17.0.1'
     implementation 'com.android.installreferrer:installreferrer:2.2'
     implementation "androidx.viewpager2:viewpager2:1.0.0"
-    implementation    "androidx.viewpager2:viewpager2:1.0.0"
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
     implementation 'com.quickbirdstudios:survey:2.0.0-alpha-4'
     implementation 'com.android.support:support-v4:28.0.0'
     implementation 'com.github.bumptech.glide:glide:4.11.0'
