@@ -99,10 +99,10 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
-                groupId 'com.moddakir.nusuk'
-                artifactId 'moddakir'
-                version '1.0.0'
+                from components.debug
+                groupId 'com.github.MonaAdelAsal'
+                artifactId 'moddakir_sdk'
+                version '1.1.0'
             }
         }
     }
